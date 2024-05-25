@@ -53,7 +53,7 @@ class AuthenticationController: ObservableObject {
     /// - Parameter completion: A closure to call with the result of the operation.
     func authenticate(completion: @escaping (Result<Bool, LAError>) -> Void) {
         if let context = context {
-            let reason = "Please authenticate using Face ID to log in."
+            let reason = "Please authenticate to log in."
             context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: reason) { success, error in
                 if success {
                     DispatchQueue.main.async {
