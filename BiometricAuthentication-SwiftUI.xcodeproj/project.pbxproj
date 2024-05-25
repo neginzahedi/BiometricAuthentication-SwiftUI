@@ -11,6 +11,7 @@
 		0F2E60302C026B3300113921 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E602F2C026B3300113921 /* ContentView.swift */; };
 		0F2E60322C026B3400113921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2E60312C026B3400113921 /* Assets.xcassets */; };
 		0F2E60352C026B3400113921 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F2E60342C026B3400113921 /* Preview Assets.xcassets */; };
+		0F2E603C2C026BF400113921 /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E603B2C026BF400113921 /* AuthenticationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0F2E602F2C026B3300113921 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0F2E60312C026B3400113921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F2E60342C026B3400113921 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F2E603B2C026BF400113921 /* AuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				0F2E602F2C026B3300113921 /* ContentView.swift */,
 				0F2E60312C026B3400113921 /* Assets.xcassets */,
 				0F2E60332C026B3400113921 /* Preview Content */,
+				0F2E603B2C026BF400113921 /* AuthenticationController.swift */,
 			);
 			path = "BiometricAuthentication-SwiftUI";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2E603C2C026BF400113921 /* AuthenticationController.swift in Sources */,
 				0F2E60302C026B3300113921 /* ContentView.swift in Sources */,
 				0F2E602E2C026B3300113921 /* BiometricAuthentication_SwiftUIApp.swift in Sources */,
 			);
